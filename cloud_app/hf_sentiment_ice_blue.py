@@ -7,7 +7,7 @@ truststore.inject_into_ssl()
 
 import streamlit as st
 import torch
-from transformers import pipeline
+from transformers.pipelines import pipeline
 
 st.set_page_config(page_title="Sentiment Aurora | Ice Blue", page_icon="❄️", layout="centered")
 
